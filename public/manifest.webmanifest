@@ -1,0 +1,48 @@
+{
+  "name": "PEEL · PowerShell Deobfuscator",
+  "short_name": "PEEL PS",
+  "description": "Open-source PowerShell deobfuscator that runs entirely in your browser. Works offline; the script is never executed and your code never leaves your device.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1316",
+  "theme_color": "#0f1316",
+  "categories": [
+    "developer",
+    "security",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "peel-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "peel-icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "peel-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "text/plain": [
+          ".ps1",
+          ".psm1",
+          ".psd1"
+        ]
+      }
+    }
+  ]
+}

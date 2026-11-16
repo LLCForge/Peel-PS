@@ -1,0 +1,27 @@
+# bağımlılıklar ve derleme çıktısı
+node_modules/
+dist/
+.vite/
+
+# loglar
+*.log
+npm-debug.log*
+
+# editör / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# yerel araç ve ortam dosyaları
+.env
+.env.*
+!.env.example
+
+# geçici analiz dosyaları (çözülecek örnekleri depoya koyma)
+tmp-*
+*.peeled.ps1
+
+# kullanıcının gerçek örnekleri: yalnızca yerel testte
+test/samples/
